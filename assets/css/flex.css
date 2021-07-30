@@ -25,7 +25,7 @@ flex-wrap: wrap;
 /* align-items: center; */
 /* gap: 2px;  */
 position: relative;
-background-color: dimgray;
+background-color: rgb(212, 212, 212);
 
 
 }
@@ -35,7 +35,7 @@ background-color: dimgray;
     width: 245px;
     height: 100px;
     margin-right: 2px;
-    background-color: rgb(221, 0, 0);
+    background-color: rgb(212, 212, 212);
     position: absolute;
     top: 230px;
     flex-shrink: 3;
@@ -46,7 +46,7 @@ background-color: dimgray;
     width: 245px;
     height: 100px;
     margin-left:1px;
-    background-color: rgb(255, 251, 0);
+    background-color: rgb(212, 212, 212);
     position: absolute;
     top: 230px;
     left: 253px;
@@ -60,7 +60,7 @@ background-color: dimgray;
 .item3{
     width: 400px;
     height: 330px;
-     background-color: rgb(17, 93, 255);
+     background-color: rgb(212, 212, 212);
  }
 
  .sec-cont{
@@ -74,7 +74,7 @@ flex-wrap: wrap;
     height: 220px;
     margin-top: 20px;
     margin-right: 4px;
-    background-color: rgb(182, 178, 178);
+    background-color:rgb(212, 212, 212);
  }
 
  .secitem2{
@@ -88,7 +88,7 @@ flex-wrap: wrap;
  .secitem3{
     width: 400px;
     height: 108px;
-    background-color: rgb(212, 16, 16);
+    background-color: rgb(212, 212, 212);
  }
 
  .container3{
@@ -103,5 +103,5 @@ flex-wrap: wrap;
  .third-item{
      width: 109px;
      height: 100px;
-     background-color: dimgray;
+     background-color: rgb(212, 212, 212);
  }
