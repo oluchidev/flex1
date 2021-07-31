@@ -17,39 +17,44 @@ flex-wrap: wrap;
   
 
 .flex-container1{
-    width: 500px;
-height: 220px;
+ 
 display: flex;
-flex-wrap: wrap;
-/* flex-direction: column; */
-/* align-items: center; */
-/* gap: 2px;  */
-position: relative;
-background-color: rgb(212, 212, 212);
+margin-left: 225px;
+gap: 4px;
+flex-shrink: 3px;
+flex-wrap: inherit;
 
 
+
+}
+
+.item4{
+    width: 500px;
+    height: 220px;
+    background-color: rgb(212, 212, 212);
 }
 
 
 .item1{
     width: 245px;
     height: 100px;
-    margin-right: 2px;
-    background-color: rgb(212, 212, 212);
+ 
+    /* margin-right: 2px; */
+    background-color: rgb(255, 0, 0);
     position: absolute;
-    top: 230px;
-    flex-shrink: 3;
-    flex-grow: 0;
+    top: 250px;
+    /* flex-shrink: 3;
+    flex-grow: 0; */
 }
 
 .item2{
     width: 245px;
     height: 100px;
-    margin-left:1px;
-    background-color: rgb(212, 212, 212);
+    /* margin-left:1px; */
+    background-color: rgb(41, 248, 0);
     position: absolute;
-    top: 230px;
-    left: 253px;
+    top: 250px;
+    left: 479px;
     flex-shrink: 3;
     flex-grow: 0;
 
